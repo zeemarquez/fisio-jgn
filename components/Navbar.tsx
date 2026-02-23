@@ -4,7 +4,7 @@ import { Menu, X, Phone, Calendar } from 'lucide-react';
 
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const logoUrl = "https://i.ibb.co/Xf8R1K4T/jgn-logo-v2.png";
+  const logoUrl = "assets/logo-jgn.png";
   const appointmentUrl = "https://app.reasoningphysios.com:443//CitaOnline/citaDashboard.aspx?clinica=907&codigoImgLog=7E45FECDBB0807E9DCFCA526DFB3E6EC02C59605";
 
   const handleScroll = (e: React.MouseEvent<HTMLAnchorElement>, id: string) => {

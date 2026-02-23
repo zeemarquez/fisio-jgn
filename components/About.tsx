@@ -10,7 +10,7 @@ const About: React.FC = () => {
           <div className="relative">
             <div className="relative rounded-[2.5rem] overflow-hidden shadow-2xl border-8 border-slate-50">
               <img 
-                src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&q=80&w=1000" 
+                src="assets/foto-jgn-01.jpg" 
                 alt="Instalaciones Clínica JGN" 
                 className="w-full h-[600px] object-cover grayscale hover:grayscale-0 transition-all duration-1000"
               />

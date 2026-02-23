@@ -3,7 +3,7 @@ import React from 'react';
 import { ChevronRight, Calendar } from 'lucide-react';
 
 const Hero: React.FC = () => {
-  const logoUrl = "https://i.ibb.co/Xf8R1K4T/jgn-logo-v2.png";
+  const logoUrl = "assets/logo-jgn.png";
   const appointmentUrl = "https://app.reasoningphysios.com:443//CitaOnline/citaDashboard.aspx?clinica=907&codigoImgLog=7E45FECDBB0807E9DCFCA526DFB3E6EC02C59605";
 
   const scrollToSpecialties = (e: React.MouseEvent<HTMLAnchorElement>) => {
@@ -70,9 +70,9 @@ const Hero: React.FC = () => {
             <div className="absolute -bottom-12 -right-12 w-64 h-64 bg-slate-100 rounded-full mix-blend-multiply filter blur-3xl opacity-70 animate-pulse delay-700"></div>
             <div className="relative rounded-3xl overflow-hidden shadow-2xl bg-slate-100">
               <img 
-                src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&q=80&w=1000" 
+                src="assets/hero-01.png" 
                 alt="Tratamiento de fisioterapia profesional" 
-                className="w-full h-full object-cover aspect-[4/3] transform hover:scale-105 transition-transform duration-700 grayscale"
+                className="w-full h-full object-cover aspect-[4/3] transform hover:scale-105 transition-transform duration-700"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent pointer-events-none"></div>
             </div>
