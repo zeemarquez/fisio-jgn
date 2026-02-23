@@ -1,0 +1,7 @@
+{
+  "name": "Clínica Fisioterapia JGN",
+  "description": "Sitio web profesional para la clínica de fisioterapia de Juan García - Noblejas, especializada en terapia manual y deportiva.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
